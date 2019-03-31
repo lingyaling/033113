@@ -1,0 +1,34 @@
+$fa-font-path:'/build/font/';
+
+@import "font-awesome/fontawesome";
+@import "font-awesome/brands.scss";
+@import "font-awesome/solid.scss";
+@import "bootstrap-cust";
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+/*樣式變數定義*/
+@import "var";
+
+/*mixin定義*/
+@import "mixin";
+
+/*全站統一性定義*/
+@import "global";
+
+body
+{
+    background-color: $default-bgcolor;
+    .container
+    {
+        background-color: $container-bgcolor;
+
+        .blog-header
+        {
+            >div
+            {
+                background-color: $
+            }
+        }
+    }
+}
